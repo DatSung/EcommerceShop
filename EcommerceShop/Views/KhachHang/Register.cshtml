@@ -1,0 +1,96 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Register";
+}
+@model EcommerceShop.ViewModels.RegisterViewModel
+
+<!-- Checkout Page Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Register Account</h1>
+        <form asp-action="Register" enctype="multipart/form-data" asp-controller="KhachHang">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item w-100">
+						<label asp-for="@Model.MaKh" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="@Model.MaKh" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item w-100">
+                        <label asp-for="@Model.MatKhau" class="form-label my-3"></label><sup>*</sup>
+                        <input asp-for="@Model.MatKhau" type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.HoTen" class="form-label my-3"></label><sup>*</sup>
+                    <input asp-for="@Model.HoTen" type="text" class="form-control">
+                </div>
+
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.GioiTinh">Gender: </label>
+
+                    <input asp-for="@Model.GioiTinh" type="radio" value="male" id="male">
+                    <label for="male">Male</label>
+
+                    <input asp-for="@Model.GioiTinh" type="radio" value="female" id="female">
+                    <label for="female">Female</label>
+
+                    <span asp-validation-for="@Model.GioiTinh" class="text-danger"></span>
+                </div>
+               
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.NgaySinh">Birthday:</label>
+
+                    <input asp-for="@Model.NgaySinh" type="date" class="form-control">
+
+                    <span asp-validation-for="@Model.NgaySinh" class="text-danger"></span>
+                </div>
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.DiaChi">Address:</label>
+
+                    <input asp-for="@Model.DiaChi" type="text" class="form-control">
+
+                    <span asp-validation-for="@Model.DiaChi" class="text-danger"></span>
+                </div>
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.DienThoai">Phone number:</label>
+
+                    <input asp-for="@Model.DienThoai" type="text" class="form-control">
+
+                    <span asp-validation-for="@Model.DienThoai" class="text-danger"></span>
+                </div>
+
+                <div class="form-item w-100">
+                    <label asp-for="@Model.Email">Email:</label>
+
+                    <input asp-for="@Model.Email" type="text" class="form-control">
+
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-item w-100">
+
+                    <label for="Hinh" class="form-label">Hinh:</label>
+
+                    <input name="Hinh" type="file" class="form-control">
+
+                </div>
+
+            </div>
+
+            <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Register</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- Checkout Page End -->

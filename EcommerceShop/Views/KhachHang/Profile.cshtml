@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Profile";
+}
+<div class="container py-5 mt-5">
+    <h1>Profile</h1>
+
+    <h2>Welcome @Context.User.Identity.Name</h2>
+
+    <a asp-action="Logout">Logout</a>
+</div>
