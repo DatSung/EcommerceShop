@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+vDs/YxdT0PvC3XOAkAtydRWxCPZH22XctKNyDKTXR+5AgSaWcNsD3sL4TavWbzBlMwFk/xSMxpeutNfiHdiTg==",
+  "dgSpecHash": "3Ils0xM49R3IGBqvokmRnubVdENi3h1+MeAdGH2JtofK55koIkwCDAZITuXQNQGjPZQGfEE37wVAf5/kNs+3Iw==",
   "success": true,
-  "projectFilePath": "D:\\FPT University Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
+  "projectFilePath": "D:\\FPT_University_Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\uinic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\uinic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

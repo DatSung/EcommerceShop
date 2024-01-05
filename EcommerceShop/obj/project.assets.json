@@ -11119,11 +11119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT University Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
+      "projectUniqueName": "D:\\FPT_University_Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
       "projectName": "EcommerceShop",
-      "projectPath": "D:\\FPT University Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
+      "projectPath": "D:\\FPT_University_Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\EcommerceShop.csproj",
       "packagesPath": "C:\\Users\\uinic\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT University Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\obj\\",
+      "outputPath": "D:\\FPT_University_Sources\\Term_5\\PRN211\\Hands-on-outside\\ASP-Project\\EcommerceShop\\EcommerceShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\uinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
